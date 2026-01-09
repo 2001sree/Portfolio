@@ -3,77 +3,192 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Usha Sree | Frontend Developer</title>
+  <title>Usha Sree | Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  <div class="container">
-
-    <!-- Left Side (Intro + Navigation) -->
-    <div class="left-panel">
-      <h2>Hello,</h2>
-      <h1>I'm <span>Usha Sree</span></h1>
-      <h3>Frontend Developer</h3>
-
-      <nav class="side-nav">
-        <a href="#education">Education</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#experience">Experience</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </div>
-
-    <!-- Right Side (Content Sections) -->
-    <div class="right-panel">
-      
-      <section id="education" class="section">
-        <h2>Education</h2>
-        <p><strong>B.Tech</strong> - GITAMW, Proddautur -(2018–2022)</p><br>
-        <p><strong>Secondary</strong> - Govt Junior Girls college, Pulivendhula -(2016-2018)</p><br>
-        <p><strong>S.S.C</strong> - Z.P.High School, Atchavelli -(2015-2-16)</p>
-      </section>
-
-      <section id="skills" class="section">
-        <h2>Skills</h2>
-        <ul>
-          <li><strong>Frontend Technologies : </strong></li>
-          <li>HTML, CSS, JavaScript, React js (Learning)</li><br>
-          <li><strong>Software Testing :</strong></li>
-          <li>Manual Testing, Selenium WebDriver(basics)</li><br>
-          <li><strong>Database :</strong></li>
-          <li>SQL (CRUD operations, joins, queries)</li>
+  <!-- Navbar -->
+<header>
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
-      </section>
+    </nav>
+</header>
 
-      <section id="projects" class="section">
-        <h2>Projects</h2>
-        <p><strong>Portfolio Website:</strong> Built using HTML and CSS.</p>
-        <p><strong>Product carousel:</strong> Adding cards with images and carousel using Bootstrap.</p>
-      </section>
+<!-- Home section -->
+<section id="home" class="section home">
+    <h1>Hello, I'm <span>Usha Sree</span></h1>
+    <h3>Frontend Developer</h3>
+    <p>I build clean, responsive, and user-friendly interfaces using HTML, CSS, JavaScript, and React, focusing on performance, accessibility, and reusable components.</p>
+</section>
 
-      <section id="experience" class="section">
-        <h2>Experience</h2>
-        <p><strong>Internship:</strong><br> Thermo Fisher Scientific (10/2022- 03/2023)</p><br>
-        <ul>
-          <li>Developed an application using XML in Visual Studio, ensuring compatibility with multiple .dll files, which enhanced application efficiency.</li>
-          <li>Executed the addition and deletion of .dll files, optimizing application performance and reducing load time by 15%.</li>
-          <li>Completed daily assigned tasks within stipulated deadlines, consistently achieving a 10% task completion rate.</li>
-          <li>Participated in weekly meetings to discuss project progress, contributing insights that improved team collaboration and workflow efficiency.</li>
-        </ul>
-      </section>
-
-      <section id="contact" class="section">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:ushasree@example.com">madhusree3021@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/usha-sree" target="_blank">https://www.linkedin.com/in/usha-madham-075982228/</a></p>
-        <p>GitHub: <a href="https://github.com/usha-sree" target="_blank">https://github.com/2001sree</a></p>
-      </section>
-
+<!-- Education Section -->
+<section id="education" class="section">
+    <h2>Education</h2>
+    <div class="card">
+        <h3>Bachelor's Technology</h3>
+        <p> Gouthami Institute of Technology & Management for Women</p>
+        <p>Eectrical & Electronics Engineering </p>
+        <span>2018 - 2022</span>
     </div>
+     <div class="card">
+        <h3>Higher Secondery</h3>
+        <p>Govt Junior Girls college</p>
+        <p>M.P.C</p>
+        <span>2016 - 2018</span>
+    </div>
+     <div class="card">
+        <h3>S.S.C</h3>
+        <p>Z.P.High School</p>
+        <p>General Studies</p>
+        <span>2015 - 2016</span>
+    </div>
+</section>
 
-  </div>
+<section id="skills" class="section light-bg">
+    <h2>Skills</h2>
+    <div class="skills">
+        <h3>Frontend Technology:</h3><br>
+        <span>HTML</span>
+        <span>CSS</span>
+       <span>JavaScript</span> 
+        <span>React</span>
+       <span>Responsive design</span>
+        <span>GitHub</span>
+        <span>Bootstrap</span>
+        <span>tailwind CSS</span>
+       <span>XML</span><br>
+       <h3>Software Testing:</h3><br>
+       <span>Manual Testing</span>
+       <span>Selenium(Basics)</span>
+    </div>
+</section>
+
+<!-- Experience section -->
+<section id="experience" class="section">
+    <h2>Experience</h2>
+    <div class="card">
+        <h3>Internship Trainee</h3>
+        <h4>Thermo Fisher Scientific  (10/2022 - 03/2023)</h4>
+        <ul>
+            <li>Developed and maintained an XML-based application in Visual Studio with support for multiple DLL integrations.</li>
+            <li>Managed addition and removal of DLL files to optimize performance and reduce load time by 15%.</li>
+            <li>Delivered assigned tasks on time with consistent quality and reliability.</li>
+            <li>Collaborated with the team through regular tasks meetings to improve workflow and efficiency.</li>
+        </ul>
+    </div>
+    <div class="card">
+        <h3>Tele caller</h3>
+        <h4>Green Call Technology  (10/2023 - 04/2024)</h4>
+        <ul>
+            <li>Contacted candidates to assess job interest and scheduled interviews.</li>
+            <li>Conducted follow-up calls to collect public feedback on government initiatives.</li>
+            <li>Maintained accurate call records to support recruitment and survey reporting.</li>
+        </ul>
+    </div>
+</section>
+
+<!-- Cursor glow -->
+ <div class="cursor-glow"></div>
+
+<!-- Projects Section -->
+<section id="projects" class="section light-bg">
+    <h2>Projects</h2>
+    <div class="projects">
+        <div class="card mb-3" id="prcard" style="width: 18rem;">
+            <img style="width: 80%; height:30%; border-radius: 10%; object-fit: cover;" src="/weather app.png" class="card-img-top" alt="Weather img">
+            <div class="card-body">
+                <h3 class="card-title mb-4">Weather App</h3>
+                <p class="card-text">A responsive weather application that displays real-time 
+                  weather details based on user-entered city names using a public weather API.</p>
+                  <span>HTML . CSS . JavaScript</span>
+                 <h4>Key Features</h4>
+                 <ul class="Features">
+                  <li>City-based weather search with live API data</li>
+                  <li>Displays temperature, humidity, and weather conditions</li>
+                  <li>Error handling for invalid city inputs</li>
+                  <li>Responsive UI for desktop and mobile devices</li>
+                 </ul>
+                 <div class="project-links">
+                <a href="https://github.com/2001sree/WetherApp" class="btn btn-primary">GitHub</a>
+                </div>
+            </div>
+        </div>
+        <div class="card mb-3" id="prcard" style="width: 18rem;">
+            <img style="width: 80%; height:30%; border-radius: 10%; object-fit: cover;" src="/music player.png" class="card-img-top" alt="musicPlayer img">
+            <div class="card-body">
+                <h3 class="card-title mb-4">MusicPlayer App</h3>
+                <p class="card-text">A lightweight music player application built using HTML, CSS, and JavaScript, 
+                    applying Object-Oriented Programming (OOP) concepts to manage audio controls and application logic efficiently.</p>
+                 <span>HTML . CSS . JavaScript</span>
+                 <h4>Key Features</h4>
+                 <ul class="Features">
+                  <li>Play, pause, next, and previous controls</li>
+                  <li>Object-Oriented approach for better code organization</li>
+                  <li>Real-time progress update</li>
+                  <li>Responsive and user-friendly interface</li>
+                 </ul>
+                 <div class="project-links">
+                    <a href="https://github.com/2001sree/mini-player" class="btn btn-primary">GitHub</a>
+                 </div>
+            </div>
+        </div>
+        <div class="card mb-3" id="prcard" style="width: 18rem;">
+            <img style="width: 80%; height:30%; border-radius: 10%; object-fit: cover;" src="/image galery.png" class="card-img-top" alt="musicPlayer img">
+            <div class="card-body">
+            <h3 class="card-title mb-4">ReactGalleryApp</h3>
+            <p class="card-text">A responsive image gallery application built using React that fetches
+                 images from a public Web API and displays them dynamically with pagination support.</p>
+                <span>HTML . CSS . JavaScript . React js </span>
+                 <h4>Key Features</h4>
+                 <ul class="Features">
+                  <li>Fetches images using a Web API key</li>
+                  <li>Dynamic image rendering using the map() function</li>
+                  <li>Pagination for loading and navigating images</li>
+                  <li>Clean and user-friendly interface</li>
+                 </ul>
+                <div class="project-links">
+                    <a href="https://github.com/2001sree/ReactGalleryApp" class="btn btn-primary">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="section">
+    <h2>Contact</h2>
+
+    <form class="contact-form">
+        <input type="text" placeholder="Name">
+        <input type="email" placeholder="Email">
+        <textarea placeholder="Message"></textarea>
+        <button class="primary-btn">Send</button>
+    </form>
+
+    <!-- Social Links -->
+    <div class="social-links">
+        <a href="https://github.com/2001sree" target="_blank">
+            <i class="fab fa-github"></i>
+        </a>
+        <a href="www.linkedin.com/in/usha-madham-075982228" target="_blank">
+            <i class="fab fa-linkedin"></i>
+        </a>
+    </div>
+</section>
+
+
+<footer>
+    <p>© 2026 Usha Sree | Frontend Developer</p>
+</footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
